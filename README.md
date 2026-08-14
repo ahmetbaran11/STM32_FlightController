@@ -1,7 +1,7 @@
 # F450 STM32 Özel Uçuş Kontrol Yazılımı
 
 > 📌 **Dokümantasyon & Hızlı Erişim:**  
-> [🛠️ **Derleme ve Kurulum (BUILD.md)**](BUILD.md) • [🐛 **Hata & Kök Neden Analizi (FAULTS.md)**](FAULTS.md) • [🏛️ **Sistem Mimarisi**](docs/architecture.md)
+> [🛠️ **Derleme ve Kurulum (BUILD.md)**](BUILD.md) • [🐛 **Hata & Kök Neden Analizi (FAULTS.md)**](FAULTS.md)
 
 ---
 
