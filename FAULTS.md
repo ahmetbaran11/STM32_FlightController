@@ -23,8 +23,8 @@ Bu dosyada, projeyi geliştirirken karşılaştığım gerçek hataları, nedenl
 
 3. Jiroskopun Hızlı Dönüşlerde Taşması (Doyuma Girmesi)
 * Sorun: Drone'u elimle hızlıca çevirdiğimde açı hesabı bir anda saçmalıyor ve toparlayamıyordu.
-* Neden Oldu?: Jiroskopu başta $\pm 250^\circ/\text{s}$ modunda başlatmıştım. Hızlı hareketlerde açısal hız bu sınırı aştığı için 16-bitlik ham değer maksimum sınıra ($\pm 32767$) takılıp kalıyordu (doyum).
-* Nasıl Çözdüm?: Jiroskop skala aralığını $\pm 2000^\circ/\text{s}$ seviyesine çıkardım ve hassasiyet çarpanlarını buna göre güncelledim.
+* Neden Oldu?: Jiroskopu başta 250 modunda başlatmıştım. Hızlı hareketlerde açısal hız bu sınırı aştığı için 16-bitlik ham değer maksimum sınıra (32767) takılıp kalıyordu (doyum).
+* Nasıl Çözdüm?: Jiroskop skala aralığını 2000 seviyesine çıkardım ve hassasiyet çarpanlarını buna göre güncelledim.
 * Nasıl Test Ettim?: Hızlı dönüşlerde ham değerlerin doymadığını ve açının doğru şekilde takip edildiğini gözlemledim.
 
 ---
