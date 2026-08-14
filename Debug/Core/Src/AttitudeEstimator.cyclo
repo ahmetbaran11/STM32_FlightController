@@ -1,0 +1,3 @@
+../Core/Src/AttitudeEstimator.cpp:10:1:AttitudeEstimator::AttitudeEstimator(float, float, float)	1
+../Core/Src/AttitudeEstimator.cpp:12:6:void AttitudeEstimator::init(const ImuSample&)	4
+../Core/Src/AttitudeEstimator.cpp:39:10:Attitude AttitudeEstimator::update(const ImuSample&)	12

@@ -1,0 +1,6 @@
+../Core/Inc/MPU6050.h:40:15:const float* MPU6050::gyroStdDps() const	1
+../Core/Inc/MPU6050.h:41:15:const float* MPU6050::accelStdG() const	1
+../Core/Inc/IbusReceiver.h:9:17:const RcInput& IbusReceiver::input() const	1
+../Core/Inc/IbusReceiver.h:13:14:uint32_t IbusReceiver::lastUartError() const	1
+../Core/Src/app_main.cpp:17:17:void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef*)	3
+../Core/Src/app_main.cpp:24:6:void app_main()	16
