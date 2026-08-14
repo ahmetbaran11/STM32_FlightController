@@ -1,5 +1,10 @@
 # F450 STM32 Özel Uçuş Kontrol Yazılımı
 
+> 📌 **Dokümantasyon & Hızlı Erişim:**  
+> [🛠️ **Derleme ve Kurulum (BUILD.md)**](BUILD.md) • [🐛 **Hata & Kök Neden Analizi (FAULTS.md)**](FAULTS.md) • [🏛️ **Sistem Mimarisi**](docs/architecture.md)
+
+---
+
 Bu proje, F450 gövdeye sahip bir quadcopter için **STM32F411 (Black Pill)** kartı üzerinde C ve C++ kullanarak sıfırdan geliştirdiğim uçuş kontrol (flight controller) yazılımıdır. 
 
 Hazır otopilot yazılımlarını (Betaflight, INAV vb.) yüklemek yerine; sensör okuma, açı hesaplama (tutum kestirimi), kumanda protokolü ayrıştırma ve motor güvenlik mantığını kendim kodlayarak gömülü sistemler ve uçuş dinamiklerini derinlemesine öğrenmeyi hedefledim.
