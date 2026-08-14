@@ -38,7 +38,7 @@ Bu dosyada, projeyi geliştirirken karşılaştığım gerçek hataları, nedenl
 ---
 
 5. Euler Açılarında Takla Atarken Açının Fırlaması (Gimbal Lock)
-* Sorun: Pitch açısı dik konuma ($\pm 90^\circ$) yaklaştığında roll ve yaw açıları aniden $-180^\circ$ değerlerine fırlıyordu.
-* Neden Oldu?: Doğrudan Euler açıları ($atan2$) üzerinden integral aldığımda açısal tekillik (Gimbal Lock) ve kadran geçiş hatası oluşuyordu.
+* Sorun: Pitch açısı dik konuma (90 derece) yaklaştığında roll ve yaw açıları aniden -180 derece değerlerine fırlıyordu.
+* Neden Oldu?: Doğrudan Euler açıları ($atan2 üzerinden integral aldığımda açısal tekillik (Gimbal Lock) ve kadran geçiş hatası oluşuyordu.
 * Nasıl Çözdüm?: Açı hesabını 4 elemanlı **Kuaterniyon matematiğine** taşıdım. Açıyı kuaterniyon olarak güncelleyip en son aşamada anlaşılır olması için Euler açılarına (Roll/Pitch/Yaw) çevirdim.
-* Nasıl Test Ettim?: Bilgisayarda yazdığım test kodunda (`test_attitude.cpp`) ardışık 22 tam $360^\circ$ dönüş simüle ettim; hiçbir fırlama olmadan açıların düzgün çalıştığını gördüm.
+* Nasıl Test Ettim?: Bilgisayarda yazdığım test kodunda (`test_attitude.cpp`) ardışık 22 tam 360 derece dönüş simüle ettim; hiçbir fırlama olmadan açıların düzgün çalıştığını gördüm.
