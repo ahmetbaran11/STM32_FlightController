@@ -51,3 +51,22 @@ Geliştirme sürecinde algoritmaları sadece "çalışıyor" diye bırakmayıp t
 ├── FAULTS.md                      # Karşılaştığım hatalar ve nasıl çözdüğüm
 ├── BUILD.md                       # Derleme ve yükleme adımları
 └── README.md
+```
+
+## Karşılaştığım Zorluklar ve Hata Günlüğü
+Geliştirme sırasında karşılaştığım I2C hat kilitlenmesi, klon çip uyumsuzluğu ve açı atlaması gibi sorunları ve çözümlerini FAULTS.md dosyasında topladım.
+
+## Projenin Şu Anki Durumu
+[x] Sensör, alıcı ve motor sürücülerinin bare-metal olarak yazılması.
+
+[x] Durağanlık testiyle otomatik jiroskop sıfırlaması (bias kalibrasyonu).
+
+[x] Kuaterniyon açı hesabı ve bilgisayarda birim testler.
+
+[x] i-BUS kumanda ayrıştırması ve hata kurtarma.
+
+[x] Çok aşamalı motor güvenlik durum makinesi.
+
+[ ] Sırada olan: Açı ve açısal hız PID kontrol döngülerinin kodlanması ve tezgâh testleri.
+
+[ ] Güvenlik Notu: Tüm testler pervaneler sökük şekilde masaüstünde yapılmaktadır.
