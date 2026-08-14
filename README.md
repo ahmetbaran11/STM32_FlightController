@@ -1,5 +1,4 @@
 # F450 STM32 Özel Uçuş Kontrol Yazılımı
-# F450 STM32 Özel Uçuş Kontrol Yazılımı
 
 Bu proje, F450 gövdeye sahip bir quadcopter için **STM32F411 (Black Pill)** kartı üzerinde C ve C++ kullanarak sıfırdan geliştirdiğim uçuş kontrol (flight controller) yazılımıdır. 
 
