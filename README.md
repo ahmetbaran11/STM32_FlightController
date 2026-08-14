@@ -28,7 +28,7 @@ Geliştirme sürecinde algoritmaları sadece "çalışıyor" diye bırakmayıp t
 
 ---
 
-## 📂 Proje Dosya Yapısı
+## Proje Dosya Yapısı
 
 ```text
 ├── Core/
