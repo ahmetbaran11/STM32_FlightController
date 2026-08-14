@@ -30,7 +30,7 @@ Bu dosyada, projeyi geliştirirken karşılaştığım gerçek hataları, nedenl
 ---
 
 4. Kart Açılırken Hareket Ettirilirse Açının Bozulması
-* Sorun: Cihaz açılırken elimde tutarsam veya masaya sert koyarsam, başlangıç açısı $20^\circ - 30^\circ$ hatalı başlıyordu.
+* Sorun: Cihaz açılırken elimde tutarsam veya masaya sert koyarsam, başlangıç açısı 20 - 30 derece hatalı başlıyordu.
 * Neden Oldu?: İlk 500 örneğin ortalamasını alıp jiroskop sıfır noktası (ofset) hesaplarken oluşan titreşimler, dinamik hareketi "sıfır noktası" olarak kaydediyordu.
 * Nasıl Çözdüm?: Kalibrasyon sırasında varyans denetimi ekledim. Eğer okunan örneklerin varyansı belirli bir eşiğin üzerindeyse (yani kart hareket ediyorsa) kalibrasyon kendini otomatik olarak sıfırlayıp baştan başlıyor.
 * Nasıl Test Ettim?: Kartı açılışta salladığımda kalibrasyon tamamlanmıyor; masaya tamamen sabit bırakana kadar bekleyip sonra sıfırlıyor.
