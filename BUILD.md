@@ -46,7 +46,7 @@ Açı hesaplama (`AttitudeEstimator`) donanımdan (HAL) tamamen bağımsız yaz�
 2. Derleyici kurulu değilse: `pacman -S mingw-w64-ucrt-x86_64-gcc`
 3. Proje klasöründeki `Core` dizinine geçin:
    ```
-   cd "/c/Users/<kullanici_adiniz>/.../F450_FlightController/Core"
+   cd "/c/Users/<pc kullanıcı adınız>/.../F450_FlightController/Core"
    ```
 4. Derleyip çalıştırın:
    ```
