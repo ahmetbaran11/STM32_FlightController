@@ -51,8 +51,6 @@ Geliştirme sürecinde algoritmaları sadece "çalışıyor" diye bırakmayıp t
 │   │   └── IbusReceiver.cpp       # Halka arabellek ve sağlama toplamı
 │   └── Test/
 │       └── test_attitude.cpp      # Bilgisayarda koşan birim test kodu
-├── docs/
-│   └── architecture.md            # Yazılım blok şeması ve matematiksel açıklamalar
 ├── FAULTS.md                      # Karşılaştığım hatalar ve nasıl çözdüğüm
 ├── BUILD.md                       # Derleme ve yükleme adımları
 └── README.md
